@@ -219,6 +219,11 @@ html{
   .button1 {
   font-size: .75rem;
   }
+  .cate{
+    display: flex;
+    flex-wrap:wrap;
+    gap: .625rem;
+  }
 }
 
 @media(max-width:320px){
