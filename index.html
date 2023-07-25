@@ -11,15 +11,34 @@
 
 <body>
     <header>
-        <nav class="navbar">
-            <div class="container-fluid row">
-                <div class="col-sm-4 col-md-6 col-lg-8">
-                    <a class="navbar-brand">EL CEMENTERIO DE LOS LIBROS</a>
-                </div>
-                <div class="col-sm-8 col-md-6 col-lg-4">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">EL CEMENTERIO DE LOS LIBROS</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Categorías
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Infantiles</a></li>
+                                <li><a class="dropdown-item" href="#">Juveniles</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="./pages/categoria.html">Adultos</a></li>
+                            </ul>
+                        </li>
+                    </ul>
                     <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-secondary" type="submit">Buscar</button>
+                        <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
                     </form>
                 </div>
             </div>
@@ -28,13 +47,6 @@
 
     <!--INICIO DE MAIN-->
     <main>
-        <div>
-            <section class="cate">
-                <img src="./assets/img/cat_infantiles.png" alt="">
-                <img src="./assets/img/cat_juveniles.png" alt="">
-                <a href="./pages/categoria.html"><img src="./assets/img/cat_adultos.png" alt=""></a>
-            </section>
-        </div>
         <div class="banner">
             <img src="./assets/img/banner.png" alt="">
         </div>
